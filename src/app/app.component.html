@@ -1,4 +1,5 @@
-<section class="hero">
+<div class="wrapper">
+  <section class="hero">
     <div class="logos">
       <div class="logos-images"></div>
     </div>
@@ -6,9 +7,29 @@
       Meet the <span>CLARK</span> Team
     </div>
     <div class="small-text">
-      A team of graduate and undergraduate students doing <span>awesome</span> stuff
+      A team of undergraduate and graduate students doing awesome stuff
     </div>
-</section>
-<section class="team">
+  </section>
+  <section class="team">
+    <div class="section-inner">
+      <div class="team-grid">
+        <div *ngFor="let t of team" class="team-member" (click)="activeMember = t; modal = true;">
+          <div class="image-wrapper">
+            <img src="../assets/images/team/{{ t.image }}" />
+            <button>
+              <div class="button-arrow"></div>
+            </button>
+          </div>
+          <div class="team-member-name">{{ t.name }}</div>
+          <div class="team-member-position">{{ t.position }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
   
-</section>
+  <section class="team-member-modal" [ngClass]="{'active': modal, 'mobile': isMobile}" (click)="$event.stopPropagation()">
+    <div class="modal-left"></div>
+    <div class="modal-right"></div>
+  </section>
+  <div class="modal-cover" [ngClass]="{'active': modal}" (click)="modal = false;"></div>
+</div>

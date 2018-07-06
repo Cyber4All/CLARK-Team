@@ -1,8 +1,10 @@
 // font
+@import '~_vars.scss';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
