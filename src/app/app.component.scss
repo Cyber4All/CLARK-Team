@@ -1,0 +1,142 @@
+@import '~_vars.scss';
+
+.hero {
+    max-height: 800px;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        background: url('../assets/images/cloud-pattern.png') center repeat;
+    }
+
+    &:before {
+        content: '';
+        height: 400px;
+        position: absolute;
+        background: linear-gradient(0deg, white, rgba(255, 255, 255, 0));
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    & > * {
+        z-index: 2;
+    }
+
+    .big-text {
+        color: $clark-blue;
+        font-weight: bold;
+        font-size: 60px;
+        text-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+        text-align: center;
+
+        span {
+            color: $clark-red;
+        }
+    }
+
+    .small-text {
+        color: $clark-blue;
+        text-align: center;
+        max-width: 500px;
+        padding: 20px;
+        box-sizing: border-box;
+        font-size: 20px;
+
+        span {
+            // color: $clark-red;
+        }
+    }
+
+    .logos {
+        max-width: 500px;
+        width: 100%;
+        height: 170px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .logos-images {
+            background: url('../assets/images/logo.png') center no-repeat;
+            width: 170px;
+            height: 170px;
+            background-size: contain;
+
+            &:before,
+            &:after {
+                content: '';
+                background: url('../assets/images/logo.png') bottom no-repeat;
+                width: 170px;
+                height: 170px;
+                background-size: contain;
+                position: absolute;
+                transform: scale(0.65);
+                bottom: -15px;
+                z-index: -1;
+                opacity: 0.6;
+                margin-left: 0 !important;
+            }
+
+            &:before {
+                animation: bounce 2.5s linear infinite, logo-left 0.6s ease-out 0.6s forwards
+                // animation: logo-left 0.4s ease-out 0.5s forwards;
+            }
+
+            &:after {
+                animation: bounce 2.5s 1s linear infinite, logo-right 0.6s ease-out 0.4s forwards;
+                // animation: logo-right 0.4s ease-out 0.4s forwards;
+            }
+        }
+    }
+
+    @keyframes logo-left {
+        0% {
+            margin-left: 0;
+
+        } 100% {
+            margin-left: -125px;
+        }
+    }
+
+    @keyframes logo-right {
+        0% {
+            margin-left: 0;
+
+        } 100% {
+            margin-left: 125px;
+        }
+    }
+
+    @keyframes bounce {
+        0% {
+            bottom: -15px;
+
+        } 50% {
+            bottom: -5px;
+
+        } 100% {
+            bottom: -15px;
+        }
+    }
+}
+
+.team {
+
+}
