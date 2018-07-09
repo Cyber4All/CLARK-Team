@@ -1,58 +1,59 @@
 {
     "team": [
         {
-            "name": "Sidd Kaza",
-            "position": "Rainmaker",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "name": "Sidd|Kaza",
+            "position": "Faculty ",
             "image": "siddkaza.png"
         },
         {
-            "name": "Sean Donnelly",
+            "name": "Sean|Donnelly",
             "position": "Senior Software Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "seandonnelly.png"
+            "image": "seannelly.png"
         },
         {
-            "name": "Gustavus Shaw II",
+            "name": "Gustavus|Shaw II",
             "position": "Full Stack Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "gusshaw.png"
+            "bio": "Gus is an ambitious and experienced Software Developer with a demonstrated history working with startups and within the education industry. He is skilled in full stack development and software engineering and is a full time student pursuing a Bachelor’s Degree in Computer Science from Towson University.",
+            "image": "gusshaw.jpg"
         },
         {
-            "name": "Nick Visalli",
+            "name": "Nick|Visalli",
             "position": "Full Stack Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "bio": "Nick is a software developer who creates and maintains C.L.A.R.K. As a developer, he is responsible for understanding and using the MEAN stack, attending and participating in daily scrum meetings, and creating or enhancing various features within a timely fashion. Above all, Nick is mainly concerned with learning. He is determined to try new technologies and methodologies to become a better, more consistent, software developer. After the Fall 2018 semester, he will complete the undergraduate program at Towson University and will earn a BS in Computer Science with a concentration in software engineering.",
             "image": "nickvisalli.png"
         },
         {
-            "name": "Nick Winner",
+            "name": "Nick|Winner",
             "position": "Full Stack Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "nickwinner.png"
+            "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
+            "image": "nickwinner.jpg"
         },
         {
-            "name": "Bartholomew Allen",
+            "name": "Bartholomew|Allen",
             "position": "Junior Software Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "bartholomewallen.jpg"
+            "image": "bartallen.jpg"
         },
         {
-            "name": "Golda Meir Chiong",
+            "name": "Golda Meir|Chiong",
             "position": "Junior Software Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "goldameirchiong.png"
+            "image": "goldameirchiong.jpg"
         },
         {
-            "name": "Kolbe Leonard",
+            "name": "Kolbe|Leonard",
             "position": "Junior Software Developer",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "kolbeleonard.png"
+            "image": "kolbeleonard.jpg"
         },
         {
-            "name": "Emily Vogel",
+            "name": "Nnatubemugo|Ngwum",
+            "position": "Doctoral Candidate",
+            "bio": "Nnatubemugo is currently a doctoral candidate whose role focuses on security policy and quality metrics of CLARK. He has experience in academia and industry, and he holds a master’s degree in Advanced Computer Science specializing in Computer Security from the University of Manchester, United Kingdom.",
+            "image": "ugo.jpg"
+        },
+        {
+            "name": "Emily|Vogel",
             "position": "Undergraduate Assistant",
-            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "emilyvogel.png"
+            "bio": "Emily is an Undergraduate Student at Towson University, majoring in Computer Science with a track in Software Engineering.  She works in many areas of the team, including Front and Back-End work, as well as a teaching assistant in an introductory computer science course.  Emily has been coding since her first computer science class at Arundel High School and has excelled since then in her academics.  She loves the challenge computer science has to offer in addition to the creativity needed to create and build applications.",
+            "image": "emilyvogel.jpg"
         }
     ]
 }
