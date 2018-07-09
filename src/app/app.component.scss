@@ -449,7 +449,7 @@ button {
             color: $clark-dark;
             border-top: 2px solid rgba(0, 0, 0, 0.05);
             align-self: stretch;
-            overflow-y: scroll;
+            overflow-y: auto;
             line-height: 30px;
             box-sizing: border-box;
             -webkit-overflow-scrolling: touch;
