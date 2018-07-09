@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Adding a Team Member
+
+A team member can be added by direectly editing the `store.json` file inside the `src/assets` folder. Each entry should have a name field, a position field, and an image field. The image should be the name of an image inside the `assets/images/team` folder. The name should be formatted as `FIRSTNAME|LASTNAME`, IE `Nick|Winner`. If your first name contains a space, it would read as `First Name|Last Name`.
