@@ -37,11 +37,13 @@
         {
             "name": "Golda Meir|Chiong",
             "position": "Junior Software Developer",
+            "bio": "Golda Meir is finishing up her last year at Towson University for computer science with a specialization in cybersecurity, and she is expected to graduate in May of 2019. She has interned at NIST focusing on research in computational reproducibility. She adores front-end development and is always thrilled to travel, work out, and sing.",
             "image": "goldameirchiong.jpg"
         },
         {
             "name": "Kolbe|Leonard",
             "position": "Junior Software Developer",
+            "bio": "Kolbe graduated from Towson University with a BS in Computer Science in spring 2018, and currently works as a technology analyst at JPMorgan Chase. She's passionate about clean code and ethics in computing, and has worked as a writing tutor for over 10 years. When she's not coding, you can find her cooking, gaming, or thinking about cats.",
             "image": "kolbeleonard.jpg"
         },
         {
