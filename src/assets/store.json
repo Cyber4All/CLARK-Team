@@ -53,6 +53,12 @@
             "position": "Undergraduate Assistant",
             "bio": "Emily is an Undergraduate Student at Towson University, majoring in Computer Science with a track in Software Engineering.  She works in many areas of the team, including Front and Back-End work, as well as a teaching assistant in an introductory computer science course.  Emily has been coding since her first computer science class at Arundel High School and has excelled since then in her academics.  She loves the challenge computer science has to offer in addition to the creativity needed to create and build applications.",
             "image": "emilyvogel.jpg"
+        },
+        {
+          "name": "Joel|Butler",
+          "position": "Software Developer",
+          "bio":"Joel is currently pursuing a M.S. in Applied Information Technology, focusing on Internet Application Development. He has experience in front-end web development and mobile application development, primarily on Android devices. Joel also manages a YouTube channel that teaches basic programming paradigms. He's an Army veteran who also volunteers with the Maryland Defense Force. When he's not working, volunteering or studying, Joel enjoys reading, playing piano, and undertaking just about any DIY project he can think of.",
+          "image": "joelbutler.jpg"
         }
     ]
 }
