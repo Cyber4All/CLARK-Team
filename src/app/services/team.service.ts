@@ -18,14 +18,4 @@ export class TeamService {
       return store.team;
     });
   }
-
-  /**
-   * Returns a single team member
-   * @param id id of the member to retrieve
-   */
-  getTeamMember(id: string): Promise<Member> {
-    return this.http.get('../../assets/store.json', { responseType: 'json' }).toPromise().then((store: Store) => {
-      return store.team.filter(s => s.id === id)[0];
-    });
-  }
 }
