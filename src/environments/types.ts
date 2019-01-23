@@ -7,4 +7,5 @@ export interface Member {
     name: string;
     position: string;
     bio?: string;
+    group: number;
 }

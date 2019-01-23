@@ -13,43 +13,63 @@
   <section class="team">
     <div class="section-inner">
       <div class="team-grid">
-        <div *ngFor="let t of team; let i = index" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
-          <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
-        </div>
+        <ng-container *ngFor="let t of team; let i = index">
+          <div *ngIf="t.group == 1" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          </div>
+        </ng-container> 
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="team-grid">
+        <ng-container *ngFor="let t of team; let i = index">
+          <div *ngIf="t.group == 2" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          </div>
+        </ng-container> 
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="team-grid">
+        <ng-container *ngFor="let t of team; let i = index">
+          <div *ngIf="t.group == 3" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          </div>
+        </ng-container> 
       </div>
     </div>
   </section>
   
   <section *ngIf="modalDom" class="team-member-modal" [ngClass]="{'active': modal, 'mobile': isMobile}" (click)="$event.stopPropagation()">
-    <div class="close" (click)="hideModal()">
-      <i class="far fa-times"></i>
-    </div>
-    <div class="modal-left">
-      <img src="../assets/images/team/{{ activeMember.image }}" />
-    </div>
-    <div class="modal-right">
-      <div class="modal-name">
-          <div class="logo"></div>
-          <div>
-            <div class="team-member-name-modal">{{ activeMember?.name.replace('|', ' ') }}</div>
-            <div class="team-member-position-modal">{{ activeMember?.position }}</div>
-          </div>
+      <div class="close" (click)="hideModal()">
+        <i class="far fa-times"></i>
       </div>
-      <div class="bio">
-        <div>{{ activeMember?.bio ? activeMember.bio : 'Unfortunately, ' + activeMember?.name.split('|')[0] + ' doesn\'t have a bio yet. :(' }}</div>
+      <div class="modal-left">
+        <img alt="{{ activeMember?.name.replace('|', ' ') }}" src="../assets/images/team/{{ activeMember.image }}" />
       </div>
-    </div>
-  </section>
-  <div class="modal-cover" [ngClass]="{'active': modal}" (click)="hideModal()"></div>
-</div>
-
-<ng-template #teamMember let-t="team">
-  <div class="image-wrapper">
-    <div class="img" [ngStyle]="{'backgroundImage': 'url(../assets/images/team/' + t.image + ')'}"></div>
-    <button>
-      <i class="far fa-long-arrow-right"></i>
-    </button>
+      <div class="modal-right">
+        <div class="modal-name">
+            <div class="logo"></div>
+            <div>
+              <div class="team-member-name-modal">{{ activeMember?.name.replace('|', ' ') }}</div>
+              <div class="team-member-position-modal">{{ activeMember?.position }}</div>
+            </div>
+        </div>
+        <div class="bio">
+          <div>{{ activeMember?.bio ? activeMember.bio : 'Unfortunately, ' + activeMember?.name.split('|')[0] + ' doesn\'t have a bio yet. :(' }}</div>
+        </div>
+      </div>
+    </section>
+    <div class="modal-cover" [ngClass]="{'active': modal}" (click)="hideModal()"></div>
   </div>
-  <div class="team-member-name">{{ t.name.replace('|', ' ') }}</div>
-  <div class="team-member-position">{{ t.position }}</div>
+  
+  <ng-template #teamMember let-t="team">
+    <div class="image-wrapper">
+      <div class="img" [ngStyle]="{'backgroundImage': 'url(../assets/images/team/' + t.image + ')'}"></div>
+      <button>
+        <i class="far fa-long-arrow-right"></i>
+      </button>
+    </div>
+    <div class="team-member-name">{{ t.name.replace('|', ' ') }}</div>
+    <div class="team-member-position">{{ t.position }}</div>
 </ng-template>
