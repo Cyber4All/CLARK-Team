@@ -90,6 +90,28 @@
             "bio": "Paige is a junior at Towson University majoring in Information Systems with e-Government and is expected to graduate in December 2019. She has a background in IT and is committed to learning more about software development. When she is not studying or working, she enjoys running, reading, and cooking.",
             "image": "paigezaleppa.jpg",
             "group": 3 
+        },
+        {
+            "name":"Justine|Caylor",
+            "position": "Lead Technical Editor",
+            "bio": "",
+            "image":"justinecaylor.jpg",
+            "group": 4
+        },
+        {
+            "name": "Kira|Fallen",
+            "position": "Editor (High School Intern)",
+            "bio": "",
+            "image":"kirafallen.jpg",
+            "group": 4
+        },
+        {
+            "name": "Sagar|Raina",
+            "position": "Universal Usability Consultant", 
+            "bio": "", 
+            "image": "sagarraina.jpg",
+            "group": 5 
+
         }
     ]
 }

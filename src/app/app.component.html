@@ -38,6 +38,24 @@
         </ng-container> 
       </div>
     </div>
+    <div class="section-inner">
+      <div class="team-grid">
+        <ng-container *ngFor="let t of team; let i = index">
+          <div *ngIf="t.group == 4" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          </div>
+        </ng-container> 
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="team-grid">
+        <ng-container *ngFor="let t of team; let i = index">
+          <div *ngIf="t.group == 5" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          </div>
+        </ng-container> 
+      </div>
+    </div>
   </section>
   
   <section *ngIf="modalDom" class="team-member-modal" [ngClass]="{'active': modal, 'mobile': isMobile}" (click)="$event.stopPropagation()">
