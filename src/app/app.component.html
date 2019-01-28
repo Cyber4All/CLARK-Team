@@ -21,6 +21,9 @@
       </div>
     </div>
     <div class="section-inner">
+      <div class="medium-text">
+        Lead Developers
+      </div>
       <div class="team-grid">
         <ng-container *ngFor="let t of team; let i = index">
           <div *ngIf="t.group == 2" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
@@ -30,6 +33,9 @@
       </div>
     </div>
     <div class="section-inner">
+      <div class="medium-text">
+        Developers
+      </div>
       <div class="team-grid">
         <ng-container *ngFor="let t of team; let i = index">
           <div *ngIf="t.group == 3" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
@@ -39,6 +45,9 @@
       </div>
     </div>
     <div class="section-inner">
+      <div class="medium-text">
+        Technical Editors 
+      </div>
       <div class="team-grid">
         <ng-container *ngFor="let t of team; let i = index">
           <div *ngIf="t.group == 4" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
@@ -48,9 +57,24 @@
       </div>
     </div>
     <div class="section-inner">
+      <div class="medium-text">
+        Consultants
+      </div>
       <div class="team-grid">
         <ng-container *ngFor="let t of team; let i = index">
           <div *ngIf="t.group == 5" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          </div>
+        </ng-container> 
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="medium-text">
+        Past Participants
+      </div>
+      <div class="team-grid">
+        <ng-container *ngFor="let t of team; let i = index">
+          <div *ngIf="t.group == 6" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
             <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
           </div>
         </ng-container> 
