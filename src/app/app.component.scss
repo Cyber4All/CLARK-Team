@@ -155,7 +155,7 @@ button {
 
     .medium-text{
         color: $clark-blue;
-        font-size: 40px; 
+        font-size: 30px; 
         text-align: center; 
         font-weight: bold;
         padding: 20px;  
@@ -298,6 +298,19 @@ button {
                     transform: scale(1);
                 }
             }
+        }
+    }
+    .past-member{
+        .past-member-name {
+            font-weight: bold;
+            font-size: 22px;
+            color: black;
+        }
+
+        .past-member-position {
+            font-size: 18px;
+            color: $clark-dark;
+            font-weight: 300;
         }
     }
 }
