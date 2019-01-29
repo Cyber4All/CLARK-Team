@@ -300,6 +300,19 @@ button {
             }
         }
     }
+    .past-member{
+        .past-member-name {
+            font-weight: bold;
+            font-size: 22px;
+            color: black;
+        }
+
+        .past-member-position {
+            font-size: 18px;
+            color: $clark-dark;
+            font-weight: 300;
+        }
+    }
 }
 
 .modal-cover {
@@ -473,5 +486,37 @@ button {
             right: 0;
             z-index: 1;
         }
+    }
+}
+
+.past-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: white;
+
+    // on load animation
+    animation: past-member-load 0.6s linear forwards;
+    opacity: 0;
+    transform: scale(0.9);
+
+    &:after {
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.2s ease;
+        background: linear-gradient(45deg, $clark-red, $clark-blue);
+        // background: $clark-blue;
     }
 }

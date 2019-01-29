@@ -74,8 +74,8 @@
       </div>
       <div class="team-grid">
         <ng-container *ngFor="let t of team; let i = index">
-          <div *ngIf="t.group == 6" class="team-member" (click)="showModal(t)" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
-            <ng-container [ngTemplateOutlet]="teamMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
+          <div *ngIf="t.group == 6" class="past-member" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+            <ng-container [ngTemplateOutlet]="pastMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
           </div>
         </ng-container> 
       </div>
@@ -114,4 +114,9 @@
     </div>
     <div class="team-member-name">{{ t.name.replace('|', ' ') }}</div>
     <div class="team-member-position">{{ t.position }}</div>
+</ng-template>
+
+<ng-template #pastMember let-t="team">
+  <div class="past-member-name">{{ t.name.replace('|', ' ') }}</div>
+  <div class="past-member-position">{{ t.position }}</div>
 </ng-template>
