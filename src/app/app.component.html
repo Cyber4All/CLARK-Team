@@ -74,7 +74,7 @@
       </div>
       <div class="team-grid">
         <ng-container *ngFor="let t of team; let i = index">
-          <div *ngIf="t.group == 6" class="past-member" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
+          <div *ngIf="t.group == 6" class="team-member" style="cursor: auto" [ngStyle]="{'animationDelay': 0.2 +  (0.2 * (i - 1)) + 's'}">
             <ng-container [ngTemplateOutlet]="pastMember" [ngTemplateOutletContext]="{'team': t}"></ng-container>
           </div>
         </ng-container> 
