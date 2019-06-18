@@ -99,12 +99,10 @@
       </div>
     <div class="team-member-name" tabindex="0">{{ t.name.replace('|', ' ') }}</div>
     <div class="team-member-position" tabindex="0">{{ t.position }}
-      <button aria-label="Clickable link button">
+      <button aria-label="Clickable view biography">
         <i class="far fa-long-arrow-right"></i>
       </button>
     </div>
-    
-  
 </ng-template>
 
 <ng-template #pastMember let-t="team">
@@ -113,5 +111,4 @@
   </div>
   <div class="team-member-name" tabindex="0">{{ t.name.replace('|', ' ') }}</div>
   <div class="team-member-position" tabindex="0">{{ t.position }}</div>
-  
 </ng-template>
