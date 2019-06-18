@@ -3,10 +3,10 @@
     <div class="logos">
       <div class="logos-images"></div>
     </div>
-    <div class="big-text">
+    <div class="big-text" tabindex="0">
       Meet the <span>CLARK</span> Team
     </div>
-    <div class="small-text">
+    <div class="small-text" tabindex="0">
       A team of undergraduate and graduate students doing awesome stuff
     </div>
   </section>
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="section-inner">
-      <div class="medium-text">
+      <div class="medium-text" tabindex="0">
         Developers
       </div>
       <div class="team-grid">
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="section-inner">
-      <div class="medium-text">
+      <div class="medium-text" tabindex="0">
         Technical Editors 
       </div>
       <div class="team-grid">
@@ -45,7 +45,7 @@
       </div>
     </div>
     <div class="section-inner">
-      <div class="medium-text">
+      <div class="medium-text" tabindex="0">
         Consultants
       </div>
       <div class="team-grid">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="section-inner">
-      <div class="medium-text">
+      <div class="medium-text" tabindex="0">
         Past Participants
       </div>
       <div class="team-grid">
@@ -81,11 +81,11 @@
         <div class="modal-name">
             <div class="logo"></div>
             <div>
-              <div class="team-member-name-modal">{{ activeMember?.name.replace('|', ' ') }}</div>
-              <div class="team-member-position-modal">{{ activeMember?.position }}</div>
+              <div class="team-member-name-modal" tabindex="0">{{ activeMember?.name.replace('|', ' ') }}</div>
+              <div class="team-member-position-modal" tabindex="0">{{ activeMember?.position }}</div>
             </div>
         </div>
-        <div class="bio">
+        <div class="bio" tabindex="0">
           <div>{{ activeMember?.bio ? activeMember.bio : 'Unfortunately, ' + activeMember?.name.split('|')[0] + ' doesn\'t have a bio yet. :(' }}</div>
         </div>
       </div>
@@ -96,18 +96,22 @@
   <ng-template #teamMember let-t="team">
     <div class="image-wrapper">
       <div class="img" [ngStyle]="{'backgroundImage': 'url(../assets/images/team/' + t.image + ')'}"></div>
-      <button>
+      </div>
+    <div class="team-member-name" tabindex="0">{{ t.name.replace('|', ' ') }}</div>
+    <div class="team-member-position" tabindex="0">{{ t.position }}
+      <button aria-label="Clickable link button">
         <i class="far fa-long-arrow-right"></i>
       </button>
     </div>
-    <div class="team-member-name">{{ t.name.replace('|', ' ') }}</div>
-    <div class="team-member-position">{{ t.position }}</div>
+    
+  
 </ng-template>
 
 <ng-template #pastMember let-t="team">
   <div class="image-wrapper">
     <div class="img" [ngStyle]="{'backgroundImage': 'url(../assets/images/team/' + t.image + ')'}"></div>
   </div>
-  <div class="team-member-name">{{ t.name.replace('|', ' ') }}</div>
-  <div class="team-member-position">{{ t.position }}</div>
+  <div class="team-member-name" tabindex="0">{{ t.name.replace('|', ' ') }}</div>
+  <div class="team-member-position" tabindex="0">{{ t.position }}</div>
+  
 </ng-template>
