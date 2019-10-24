@@ -12,7 +12,7 @@
             "position": "Software Architect",
             "bio": "Sean is currently pursuing a M.S. in Computer Science from Towson University. Prior to joining the CLARK team in 2017, he worked as Co-founder and CTO of Striations Fitness Co. He has a passion for software architecture, and the way in which good architecture can sculpt a corporate culture.",
             "image": "sean.jpg",
-            "group": 6
+            "group": 5
         },
         {
             "name": "Gustavus|Shaw II",
@@ -23,7 +23,8 @@
         },
         {
             "name": "Nick|Winner",
-            "position": "Product Manager and Senior Software Developer",
+            "position": "Product Manager",
+            "position2": "Senior Software Developer",
             "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
             "image": "nickwinner.jpg",
             "group": 2
@@ -87,7 +88,7 @@
         {
             "name":"Justine|Caylor",
             "position": "Lead Technical Editor",
-            "bio": "",
+            "bio": "Justine is currently a first-year Towson University (TU) doctoral student in the Information Technology (D.Sc.) program and previously graduated from TU with a Bachelor's degree in Information Systems with a track in Business and a Master's degree in Computer Science with a track in Data Science. In addition to working with CLARK, Justine is a Journeyman Fellow with the CCDC Army Research Laboratory. Outside of work, Justine enjoys video games, reading, and traveling.",
             "image":"justinecaylor.jpg",
             "group": 4
         },
