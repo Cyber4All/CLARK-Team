@@ -12,27 +12,27 @@
             "position": "Software Architect",
             "bio": "Sean is currently pursuing a M.S. in Computer Science from Towson University. Prior to joining the CLARK team in 2017, he worked as Co-founder and CTO of Striations Fitness Co. He has a passion for software architecture, and the way in which good architecture can sculpt a corporate culture.",
             "image": "sean.jpg",
-            "group": 2
+            "group": 6
         },
         {
             "name": "Gustavus|Shaw II",
             "position": "Senior Software Developer",
             "bio": "Gus is an ambitious and experienced Software Developer with a demonstrated history working with startups and within the education industry. He is skilled in full stack development and software engineering and is a full time student pursuing a Bachelor’s Degree in Computer Science from Towson University.",
             "image": "gusshaw.jpg",
-            "group": 2
-        },
-        {
-            "name": "Nick|Visalli",
-            "position": "Site Reliability Engineer",
-            "bio": "Nick is a software developer who creates and maintains C.L.A.R.K. As a developer, he is responsible for understanding and using the MEAN stack, attending and participating in daily scrum meetings, and creating or enhancing various features within a timely fashion. Above all, Nick is mainly concerned with learning. He is determined to try new technologies and methodologies to become a better, more consistent, software developer. After the Fall 2018 semester, he will complete the undergraduate program at Towson University and will earn a BS in Computer Science with a concentration in software engineering.",
-            "image": "nickvisalli.jpg",
-            "group": 2
+            "group": 6
         },
         {
             "name": "Nick|Winner",
             "position": "Senior Software Developer",
             "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
             "image": "nickwinner.jpg",
+            "group": 2
+        },
+        {
+            "name": "Nick|Visalli",
+            "position": "Site Reliability Engineer",
+            "bio": "Nick is a software developer who creates and maintains C.L.A.R.K. As a developer, he is responsible for understanding and using the MEAN stack, attending and participating in daily scrum meetings, and creating or enhancing various features within a timely fashion. Above all, Nick is mainly concerned with learning. He is determined to try new technologies and methodologies to become a better, more consistent, software developer. After the Fall 2018 semester, he will complete the undergraduate program at Towson University and will earn a BS in Computer Science with a concentration in software engineering.",
+            "image": "nickvisalli.jpeg",
             "group": 2
         },
         {
@@ -75,7 +75,7 @@
             "position":"Junior Software Developer",
             "bio": "Jude is a senior at Towson University finishing up his B.S. in Computer Science. He plans on pursuing his M.S. in Computer Science with a track in Software Engineering right after. Jude is committed to learning more about software development as a whole, striving to be future full-stack developer. Some of his hobbies outside of coding include playing soccer and hockey.",
             "image": "judebarlow.jpg",
-            "group": 2
+            "group": 6
         },
         {
             "name": "Paige|Zaleppa",
@@ -96,7 +96,7 @@
             "position": "Editor (High School Intern)",
             "bio": "",
             "image":"kirafallen.jpg",
-            "group": 4
+            "group": 6
         },
         {
             "name": "Sagar|Raina",
