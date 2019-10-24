@@ -8,20 +8,6 @@
             "group": 1 
         },
         {
-            "name": "Sean|Donnelly",
-            "position": "Software Architect",
-            "bio": "Sean is currently pursuing a M.S. in Computer Science from Towson University. Prior to joining the CLARK team in 2017, he worked as Co-founder and CTO of Striations Fitness Co. He has a passion for software architecture, and the way in which good architecture can sculpt a corporate culture.",
-            "image": "sean.jpg",
-            "group": 5
-        },
-        {
-            "name": "Gustavus|Shaw II",
-            "position": "Senior Software Developer",
-            "bio": "Gus is an ambitious and experienced Software Developer with a demonstrated history working with startups and within the education industry. He is skilled in full stack development and software engineering and is a full time student pursuing a Bachelor’s Degree in Computer Science from Towson University.",
-            "image": "gusshaw.jpg",
-            "group": 6
-        },
-        {
             "name": "Nick|Winner",
             "position": "Product Manager",
             "position2": "Senior Software Developer",
@@ -37,25 +23,11 @@
             "group": 2
         },
         {
-            "name": "Bartholomew|Allen",
-            "position": "Junior Software Developer",
-            "bio": "Bart is beginning his senior year at Towson University majoring in Computer science and is expected to graduate in Fall 2019. He taught himself basic web development during off semesters and aspires to go into Full Stack Development and Software Engineering. When he isn’t coding, he is running cross country, training for a 5k, or reading.",
-            "image": "bartallen.jpg",
-            "group": 6
-        },
-        {
-            "name": "Golda Meir|Chiong",
-            "position": "Junior Software Developer",
-            "bio": "Golda Meir is finishing up her last year at Towson University for computer science with a specialization in cybersecurity, and she is expected to graduate in May of 2019. She has interned at NIST focusing on research in computational reproducibility. She adores front-end development and is always thrilled to travel, work out, and sing.",
-            "image": "goldameirchiong.jpg",
-            "group": 6
-        },
-        {
-            "name": "Nnatubemugo|Ngwum",
-            "position": "Doctoral Candidate",
-            "bio": "Nnatubemugo is currently a doctoral candidate whose role focuses on security policy and quality metrics of CLARK. He has experience in academia and industry, and he holds a master’s degree in Advanced Computer Science specializing in Computer Security from the University of Manchester, United Kingdom.",
-            "image": "ugo.jpg",
-            "group": 5
+            "name": "Paige|Zaleppa",
+            "position": "Software Developer",
+            "bio": "Paige is a senior at Towson University majoring in Information Systems with e-Government and is expected to graduate in December 2019. She has a background in IT and is committed to learning more about software development. When she is not studying or working, she enjoys running, reading, and cooking.",
+            "image": "paigezaleppa.jpg",
+            "group": 2
         },
         {
             "name": "Emily|Vogel",
@@ -72,20 +44,6 @@
             "group": 2
         },
         {
-            "name": "Jude|Barlow",
-            "position":"Junior Software Developer",
-            "bio": "Jude is a senior at Towson University finishing up his B.S. in Computer Science. He plans on pursuing his M.S. in Computer Science with a track in Software Engineering right after. Jude is committed to learning more about software development as a whole, striving to be future full-stack developer. Some of his hobbies outside of coding include playing soccer and hockey.",
-            "image": "judebarlow.jpg",
-            "group": 6
-        },
-        {
-            "name": "Paige|Zaleppa",
-            "position": "Software Developer",
-            "bio": "Paige is a senior at Towson University majoring in Information Systems with e-Government and is expected to graduate in December 2019. She has a background in IT and is committed to learning more about software development. When she is not studying or working, she enjoys running, reading, and cooking.",
-            "image": "paigezaleppa.jpg",
-            "group": 2
-        },
-        {
             "name":"Justine|Caylor",
             "position": "Lead Technical Editor",
             "bio": "Justine is currently a first-year Towson University (TU) doctoral student in the Information Technology (D.Sc.) program and previously graduated from TU with a Bachelor's degree in Information Systems with a track in Business and a Master's degree in Computer Science with a track in Data Science. In addition to working with CLARK, Justine is a Journeyman Fellow with the CCDC Army Research Laboratory. Outside of work, Justine enjoys video games, reading, and traveling.",
@@ -93,11 +51,18 @@
             "group": 4
         },
         {
-            "name": "Kira|Fallen",
-            "position": "Editor (High School Intern)",
-            "bio": "",
-            "image":"kirafallen.jpg",
-            "group": 6
+            "name": "Sean|Donnelly",
+            "position": "Software Architect",
+            "bio": "Sean is currently pursuing a M.S. in Computer Science from Towson University. Prior to joining the CLARK team in 2017, he worked as Co-founder and CTO of Striations Fitness Co. He has a passion for software architecture, and the way in which good architecture can sculpt a corporate culture.",
+            "image": "sean.jpg",
+            "group": 5
+        },
+        {
+            "name": "Nnatubemugo|Ngwum",
+            "position": "Doctoral Candidate",
+            "bio": "Nnatubemugo is currently a doctoral candidate whose role focuses on security policy and quality metrics of CLARK. He has experience in academia and industry, and he holds a master’s degree in Advanced Computer Science specializing in Computer Security from the University of Manchester, United Kingdom.",
+            "image": "ugo.jpg",
+            "group": 5
         },
         {
             "name": "Sagar|Raina",
@@ -108,25 +73,60 @@
 
         },
         {
+            "name": "Bartholomew|Allen",
+            "position": "Junior Software Developer",
+            "bio": "Bart is beginning his senior year at Towson University majoring in Computer science and is expected to graduate in Fall 2019. He taught himself basic web development during off semesters and aspires to go into Full Stack Development and Software Engineering. When he isn’t coding, he is running cross country, training for a 5k, or reading.",
+            "image": "bartallen.jpg",
+            "group": 6
+        },
+        {
+            "name": "Jude|Barlow",
+            "position":"Junior Software Developer",
+            "bio": "Jude is a senior at Towson University finishing up his B.S. in Computer Science. He plans on pursuing his M.S. in Computer Science with a track in Software Engineering right after. Jude is committed to learning more about software development as a whole, striving to be future full-stack developer. Some of his hobbies outside of coding include playing soccer and hockey.",
+            "image": "judebarlow.jpg",
+            "group": 6
+        },
+        {
             "name": "Joel|Butler",
             "position": "Software Developer",
             "bio":"Joel is currently pursuing a M.S. in Applied Information Technology, focusing on Internet Application Development. He has experience in front-end web development and mobile application development, primarily on Android devices. Joel also manages a YouTube channel that teaches basic programming paradigms. He's an Army veteran who also volunteers with the Maryland Defense Force. When he's not working, volunteering or studying, Joel enjoys reading, playing piano, and undertaking just about any DIY project he can think of.",
             "image": "joelbutler.jpg",
             "group": 6 
           },
-          {
+        {
+            "name": "Golda Meir|Chiong",
+            "position": "Junior Software Developer",
+            "bio": "Golda Meir is finishing up her last year at Towson University for computer science with a specialization in cybersecurity, and she is expected to graduate in May of 2019. She has interned at NIST focusing on research in computational reproducibility. She adores front-end development and is always thrilled to travel, work out, and sing.",
+            "image": "goldameirchiong.jpg",
+            "group": 6
+        },
+        {
+            "name": "Kira|Fallen",
+            "position": "Editor (High School Intern)",
+            "bio": "",
+            "image":"kirafallen.jpg",
+            "group": 6
+        },
+        {
             "name": "Tyler|Howard",
             "position": "Senior Software Developer",
             "bio": "",
             "image": "tylerhoward.jpg",
             "group": 6 
-          },
-          {
+        },
+        {
              "name": "Kolbe|Leonard",
              "position": "Junior Software Developer",
              "bio": "",
              "image": "kolbeleonard.jpg", 
              "group": 6
-          }
+        },
+        {
+            "name": "Gustavus|Shaw II",
+            "position": "Senior Software Developer",
+            "bio": "Gus is an ambitious and experienced Software Developer with a demonstrated history working with startups and within the education industry. He is skilled in full stack development and software engineering and is a full time student pursuing a Bachelor’s Degree in Computer Science from Towson University.",
+            "image": "gusshaw.jpg",
+            "group": 6
+        }
     ]
 }
