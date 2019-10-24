@@ -23,7 +23,7 @@
         },
         {
             "name": "Nick|Winner",
-            "position": "Senior Software Developer",
+            "position": "Product Manager and Senior Software Developer",
             "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
             "image": "nickwinner.jpg",
             "group": 2
@@ -79,8 +79,8 @@
         },
         {
             "name": "Paige|Zaleppa",
-            "position": "Junior Software Developer",
-            "bio": "Paige is a junior at Towson University majoring in Information Systems with e-Government and is expected to graduate in December 2019. She has a background in IT and is committed to learning more about software development. When she is not studying or working, she enjoys running, reading, and cooking.",
+            "position": "Software Developer",
+            "bio": "Paige is a senior at Towson University majoring in Information Systems with e-Government and is expected to graduate in December 2019. She has a background in IT and is committed to learning more about software development. When she is not studying or working, she enjoys running, reading, and cooking.",
             "image": "paigezaleppa.jpg",
             "group": 2
         },
