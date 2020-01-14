@@ -66,11 +66,10 @@
 
         },
         {
-            "name": "Nick|Winner",
-            "position": "Product Manager",
-            "position2": "Senior Software Developer",
-            "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
-            "image": "nickwinner.jpg",
+            "name": "Bartholomew|Allen",
+            "position": "Junior Software Developer",
+            "bio": "Bart is beginning his senior year at Towson University majoring in Computer science and is expected to graduate in Fall 2019. He taught himself basic web development during off semesters and aspires to go into Full Stack Development and Software Engineering. When he isn’t coding, he is running cross country, training for a 5k, or reading.",
+            "image": "bartallen.jpg",
             "group": 6
         },
         {
@@ -81,10 +80,17 @@
             "group": 6
         },
         {
-            "name": "Bartholomew|Allen",
+            "name": "Golda Meir|Chiong",
             "position": "Junior Software Developer",
-            "bio": "Bart is beginning his senior year at Towson University majoring in Computer science and is expected to graduate in Fall 2019. He taught himself basic web development during off semesters and aspires to go into Full Stack Development and Software Engineering. When he isn’t coding, he is running cross country, training for a 5k, or reading.",
-            "image": "bartallen.jpg",
+            "bio": "Golda Meir is finishing up her last year at Towson University for computer science with a specialization in cybersecurity, and she is expected to graduate in May of 2019. She has interned at NIST focusing on research in computational reproducibility. She adores front-end development and is always thrilled to travel, work out, and sing.",
+            "image": "goldameirchiong.jpg",
+            "group": 6
+        },
+        {
+            "name": "Gustavus|Shaw II",
+            "position": "Senior Software Developer",
+            "bio": "Gus is an ambitious and experienced Software Developer with a demonstrated history working with startups and within the education industry. He is skilled in full stack development and software engineering and is a full time student pursuing a Bachelor’s Degree in Computer Science from Towson University.",
+            "image": "gusshaw.jpg",
             "group": 6
         },
         {
@@ -102,17 +108,25 @@
             "group": 6 
           },
         {
-            "name": "Golda Meir|Chiong",
-            "position": "Junior Software Developer",
-            "bio": "Golda Meir is finishing up her last year at Towson University for computer science with a specialization in cybersecurity, and she is expected to graduate in May of 2019. She has interned at NIST focusing on research in computational reproducibility. She adores front-end development and is always thrilled to travel, work out, and sing.",
-            "image": "goldameirchiong.jpg",
-            "group": 6
-        },
-        {
             "name": "Kira|Fallen",
             "position": "Editor (High School Intern)",
             "bio": "",
             "image":"kirafallen.jpg",
+            "group": 6
+        },
+        {
+            "name": "Kolbe|Leonard",
+            "position": "Junior Software Developer",
+            "bio": "",
+            "image": "kolbeleonard.jpg", 
+            "group": 6
+       },
+        {
+            "name": "Nick|Winner",
+            "position": "Product Manager",
+            "position2": "Senior Software Developer",
+            "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
+            "image": "nickwinner.jpg",
             "group": 6
         },
         {
@@ -121,20 +135,6 @@
             "bio": "",
             "image": "tylerhoward.jpg",
             "group": 6 
-        },
-        {
-             "name": "Kolbe|Leonard",
-             "position": "Junior Software Developer",
-             "bio": "",
-             "image": "kolbeleonard.jpg", 
-             "group": 6
-        },
-        {
-            "name": "Gustavus|Shaw II",
-            "position": "Senior Software Developer",
-            "bio": "Gus is an ambitious and experienced Software Developer with a demonstrated history working with startups and within the education industry. He is skilled in full stack development and software engineering and is a full time student pursuing a Bachelor’s Degree in Computer Science from Towson University.",
-            "image": "gusshaw.jpg",
-            "group": 6
         }
     ]
 }
