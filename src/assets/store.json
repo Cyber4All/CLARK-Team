@@ -2,10 +2,17 @@
     "team": [
         {
             "name": "Sidd|Kaza",
-            "position": "Project Director",
+            "position": "Project Co-Director",
             "bio": "Dr. Sidd Kaza is the Chairperson of the Computer and Information Sciences department at Towson University and the project leader on the CLARK project at Towson University. He received his Ph.D. degree in Management Information Systems from the University of Arizona.  His interests lie in cybersecurity education, data mining, and application development and he is a principal investigator on several cybersecurity education projects.",
             "image": "siddkaza.png",
             "group": 1 
+        },
+        {
+            "name": "Blair|Taylor",
+            "position": "Project Co-Director",
+            "bio": "Dr. Blair Taylor is co-director of the Clark team. Dr. Taylor is a Clinical Professor in the Computer and Information Sciences department at Towson University. Dr. Taylor worked with the National Security Agency as a subject matter expert on the National Cybersecurity Curriculum Program. ",
+            "image": "blairtaylor.png",
+            "group": 1
         },
         {
             "name": "Paige|Zaleppa",
