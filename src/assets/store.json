@@ -51,6 +51,13 @@
             "group": 4
         },
         {
+            "name": "Andrew|Fickley",
+            "position": "Architecture Consultant",
+            "bio": "Andrew is a systems engineer and DevOps evangelist with the CLARK team focused on creating technical solutions that advance business model maturity. Andrew is completing his M.S. in Applied IT through a capstone project with CLARK,  working on CI/CD pipeline enhancement and infrastructure automation efforts centered around open source tools and application of industry best practices for building enduring systems",
+            "image": "Andrew.jpeg",
+            "group": 5
+        },
+        {
             "name": "Sean|Donnelly",
             "position": "Software Architect",
             "bio": "Sean is currently pursuing a M.S. in Computer Science from Towson University. Prior to joining the CLARK team in 2017, he worked as Co-founder and CTO of Striations Fitness Co. He has a passion for software architecture, and the way in which good architecture can sculpt a corporate culture.",
