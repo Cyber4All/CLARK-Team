@@ -18,21 +18,14 @@
             "name": "Paige|Zaleppa",
             "position": "Product Manager",
             "position2": "Software Developer",
-            "bio": "Paige is a senior at Towson University majoring in Information Systems with e-Government and is expected to graduate in December 2019. She has a background in IT and is committed to learning more about software development. When she is not studying or working, she enjoys running, reading, and cooking.",
+            "bio": "Paige is currently pursuing her masters in computer science at Towson University. She has a passion for agile project and product management and her research interests include inclusive design, accessibility testing, and Section 508 compliance. When she is not studying or working, she enjoys running, reading, and cooking.",
             "image": "paigezaleppa.jpg",
             "group": 2
         },
         {
-            "name": "Nick|Visalli",
-            "position": "Site Reliability Engineer",
-            "bio": "Nick is a software developer who creates and maintains C.L.A.R.K. As a developer, he is responsible for understanding and using the MEAN stack, attending and participating in daily scrum meetings, and creating or enhancing various features within a timely fashion. Above all, Nick is mainly concerned with learning. He is determined to try new technologies and methodologies to become a better, more consistent, software developer. After the Fall 2018 semester, he will complete the undergraduate program at Towson University and will earn a BS in Computer Science with a concentration in software engineering.",
-            "image": "nickvisalli.jpeg",
-            "group": 6
-        },
-        {
             "name": "Emily|Vogel",
             "position": "Software Developer",
-            "bio": "Emily is an Undergraduate Student at Towson University, majoring in Computer Science with a track in Software Engineering.  She works in many areas of the team, including Front and Back-End work, as well as a teaching assistant in an introductory computer science course.  Emily has been coding since her first computer science class at Arundel High School and has excelled since then in her academics.  She loves the challenge computer science has to offer in addition to the creativity needed to create and build applications.",
+            "bio": "Emily is an Undergraduate Student at Towson University, majoring in Computer Science with a track in Software Engineering.  They are planning on graduating in the Fall 2020 semester and intend to continue their studies at Towson by pursuing a Master's Degree in the same field.  Emily works across multiple areas of the team, mostly involving Full-Stack development but has some experiencing working with DevOps and UI design.  Outside of CLARK, Emily is actively involved in planning workshops and other events for Software Engineering Club.",
             "image": "emilyvogel.jpg",
             "group": 2
         },
@@ -44,6 +37,13 @@
             "group": 2
         },
         {
+            "name":"David|Nsoesie", 
+            "position":"Junior Software Developer", 
+            "bio":"David is a senior at Towson University, majoring in Computer science with a track in Software Engineering. He's a Cisco certified technician with a background in IT and a passion for software development. When he isn't coding, he spends his free time drawing, designing, or writing as a creative outlet when he isn't with family or friends. ", 
+            "image":"DavidNsoesie.jpeg",
+            "group": 2
+        },
+        {
             "name":"Justine|Caylor",
             "position": "Lead Technical Editor",
             "bio": "Justine is currently a first-year Towson University (TU) doctoral student in the Information Technology (D.Sc.) program and previously graduated from TU with a Bachelor's degree in Information Systems with a track in Business and a Master's degree in Computer Science with a track in Data Science. In addition to working with CLARK, Justine is a Journeyman Fellow with the CCDC Army Research Laboratory. Outside of work, Justine enjoys video games, reading, and traveling.",
@@ -51,10 +51,17 @@
             "group": 4
         },
         {
-            "name": "Andrew|Fickley",
-            "position": "Architecture Consultant",
-            "bio": "Andrew is a systems engineer and DevOps evangelist with the CLARK team focused on creating technical solutions that advance business model maturity. Andrew is completing his M.S. in Applied IT through a capstone project with CLARK,  working on CI/CD pipeline enhancement and infrastructure automation efforts centered around open source tools and application of industry best practices for building enduring systems",
-            "image": "Andrew.jpeg",
+            "name":"Mary|Broccoli",
+            "position": "Marketing Consultant",
+            "bio": "Mary is a dynamic, collaborative marketing strategist with 7 years experience developing and implementing innovative, integrated solutions for Fortune100 businesses. She has extensive experience in curating unique ideas, creating multi-media campaigns and resolving marketing challenges to help support the business strategies of top companies such as P&G, Absolut Vodka, Cadillac, TJX Companies, LG, AstraZeneca, Reckitt Benckiser and many others.",
+            "image": "marybroccoli.jpg",
+            "group": 5
+        },
+        {
+            "name": "Nick|Winner",
+            "position": "Consultant",
+            "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
+            "image": "nickwinner.jpg",
             "group": 5
         },
         {
@@ -80,18 +87,25 @@
 
         },
         {
+            "name": "Nick|Visalli",
+            "position": "Site Reliability Engineer",
+            "bio": "Nick is a software developer who creates and maintains C.L.A.R.K. As a developer, he is responsible for understanding and using the MEAN stack, attending and participating in daily scrum meetings, and creating or enhancing various features within a timely fashion. Above all, Nick is mainly concerned with learning. He is determined to try new technologies and methodologies to become a better, more consistent, software developer. After the Fall 2018 semester, he will complete the undergraduate program at Towson University and will earn a BS in Computer Science with a concentration in software engineering.",
+            "image": "nickvisalli.jpeg",
+            "group": 6
+        },
+        {
+            "name": "Andrew|Fickley",
+            "position": "Architecture Consultant",
+            "bio": "Andrew is a systems engineer and DevOps evangelist with the CLARK team focused on creating technical solutions that advance business model maturity. Andrew is completing his M.S. in Applied IT through a capstone project with CLARK,  working on CI/CD pipeline enhancement and infrastructure automation efforts centered around open source tools and application of industry best practices for building enduring systems",
+            "image": "Andrew.jpeg",
+            "group": 6
+        },
+        {
             "name": "Bartholomew|Allen",
             "position": "Junior Software Developer",
             "bio": "Bart is beginning his senior year at Towson University majoring in Computer science and is expected to graduate in Fall 2019. He taught himself basic web development during off semesters and aspires to go into Full Stack Development and Software Engineering. When he isn’t coding, he is running cross country, training for a 5k, or reading.",
             "image": "bartallen.jpg",
             "group": 6
-        },
-        {
-            "name":"David|Nsoesie", 
-            "position":"Junior Software Developer", 
-            "bio":"David is a senior at Towson University, majoring in Computer science with a track in Software Engineering. He's a Cisco certified technician with a background in IT and a passion for software development. When he isn't coding, he spends his free time drawing, designing, or writing as a creative outlet when he isn't with family or friends. ", 
-            "image":"DavidNsoesie.jpeg",
-            "group": 2
         },
         {
             "name": "Golda Meir|Chiong",
@@ -133,14 +147,6 @@
             "position": "Junior Software Developer",
             "bio": "",
             "image": "kolbeleonard.jpg", 
-            "group": 6
-       },
-        {
-            "name": "Nick|Winner",
-            "position": "Product Manager",
-            "position2": "Senior Software Developer",
-            "bio": "Nick is a full stack developer with a passion for good user interface design. He graduated with a B.S. degree in computer science and a focus in software engineering in December of 2017. He's currently pursuing a M.S. degree in computer science with a focus on data science. When he’s not coding, he enjoys watching Star Wars, playing the piano, dancing, and free running.",
-            "image": "nickwinner.jpg",
             "group": 6
         },
         {
