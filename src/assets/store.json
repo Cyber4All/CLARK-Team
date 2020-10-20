@@ -30,17 +30,17 @@
             "group": 2
         },
         {
-            "name":"Eni|Olaniyan", 
-            "position":"Junior Software Developer", 
-            "bio":"Eni is a junior at Towson University, majoring in Computer Science with a minor in Mathematics. He is passionate about software development, and strives to be a full-stack developer. When he isn't coding, he loves to spend his free time doing extracurricular activities such as playing basketball, playing soccer, and weight lifting.",
-            "image": "EniOlaniyan.jpg",
-            "group": 2
-        },
-        {
             "name":"David|Nsoesie", 
             "position":"Software Developer", 
             "bio":"David is a senior at Towson University, majoring in Computer science with a track in Software Engineering. He's a Cisco certified technician with a background in IT and a passion for software development. When he isn't coding, he spends his free time drawing, designing, or writing as a creative outlet when he isn't with family or friends. ", 
             "image":"DavidNsoesie.jpeg",
+            "group": 2
+        },
+        {
+            "name":"Michael|Franz", 
+            "position":"Junior Software Developer", 
+            "bio":"Michael is currently pursuing his Masters in Computer Science at Towson University. He enjoys Front-End development and aspires to become a full-stack developer. When he isn't coding, he spends his free time exercising, working on cars, and socializing with his friends and family.",
+            "image": "mikeFranz.jpg",
             "group": 2
         },
         {
@@ -155,6 +155,13 @@
             "bio": "",
             "image": "tylerhoward.jpg",
             "group": 6 
+        },
+        {
+            "name":"Eni|Olaniyan", 
+            "position":"Junior Software Developer", 
+            "bio":"Eni is a junior at Towson University, majoring in Computer Science with a minor in Mathematics. He is passionate about software development, and strives to be a full-stack developer. When he isn't coding, he loves to spend his free time doing extracurricular activities such as playing basketball, playing soccer, and weight lifting.",
+            "image": "EniOlaniyan.jpg",
+            "group": 2
         }
     ]
 }
