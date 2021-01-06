@@ -49,6 +49,13 @@
             "bio":"Chris is a Sophomore at Towson University, majoring in Computer Science and minoring in Mathematics. He enjoys working alongside other ambitious developers to create practical applications.  When he isn't coding, he spends his time volunteering as a Young Life Leader and as a drummer with his local church's worship band. ",
             "image": "chriswagner.jpg",
             "group": 2
+        }, 
+        {
+            "name":"John|Mulholland", 
+            "position":"Junior Software Developer", 
+            "bio":"John is a Sophomore at Towson University, majoring in Computer Science with a minor in Mathematics. When John is not coding, he enjoys playing the trumpet in the Marching Band and playing video games.",
+            "image": "johnmulholland.jpg",
+            "group": 2
         },
         {
             "name":"Justine|Caylor",
