@@ -1,17 +1,19 @@
 <div class="wrapper">
   <section class="hero">
     <div class="logos">
-      <a  aria-label = "CLARK Home Page" href="https://clark.center/home" >
+      <img class="image" src="../assets/images/logo.png" alt="CLARK Logo">
+      <img class="image" src="../assets/images/CARD_Logo.png" alt="CARD Logo">
+      <!--<a  aria-label = "CLARK Home Page" href="https://clark.center/home" >
         <div class="logos-images" ></div>
-      </a>
+      </a>-->
     </div>
     <div class="big-text">
-      Meet the <span>CLARK</span> Team
+      Meet the <span>SecEd inc.</span> Team
     </div>
     <div class="small-text">
       A team of undergraduate and graduate students doing awesome stuff
     </div>
-    <a class="small-text" href="https://towson.joinhandshake.com/jobs/4008513?ref=preview-header-click">Are you a Towson student interested in joining the team? Check out our opening for a Software Developer!</a>
+    <!--<a class="small-text" href="https://towson.joinhandshake.com/jobs/4008513?ref=preview-header-click">Are you a Towson student interested in joining the team? Check out our opening for a Software Developer!</a>-->
   </section>
   <section class="team">
     <div class="section-inner">
@@ -87,6 +89,7 @@
               <div class="team-member-name-modal">{{ activeMember?.name.replace('|', ' ') }}</div>
               <div class="team-member-position-modal">{{ activeMember?.position }}</div>
             </div>
+            <div class="right_logo"></div>
         </div>
         <div class="bio">
           <div>{{ activeMember?.bio ? activeMember.bio : 'Unfortunately, ' + activeMember?.name.split('|')[0] + ' doesn\'t have a bio yet. :(' }}</div>
