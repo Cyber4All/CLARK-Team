@@ -78,42 +78,12 @@ button {
     }
 
     .logos {
-        max-width: 500px;
-        width: 100%;
-        height: 170px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         display: flex;
-        justify-content: center;
-        position: relative;
 
-        .logos-images {
-            background: url('../assets/images/logo.png') center no-repeat;
-            width: 170px;
+        .image {
             height: 170px;
-            background-size: contain;
-
-            &:before,
-            &:after {
-                content: '';
-                background: url('../assets/images/logo.png') bottom no-repeat;
-                width: 170px;
-                height: 170px;
-                background-size: contain;
-                position: absolute;
-                transform: scale(0.65);
-                bottom: -15px;
-                z-index: -1;
-                opacity: 0.6;
-                margin-left: 0 !important;
-            }
-
-            &:before {
-                animation: bounce 2.5s linear infinite, logo-left 0.6s ease-out 0.6s forwards;
-            }
-
-            &:after {
-                animation: bounce 2.5s 1s linear infinite, logo-right 0.6s ease-out 0.4s forwards;
-            }
+            padding: 0 50px 0 70px;
         }
     }
 
@@ -219,7 +189,6 @@ button {
                 opacity: 0;
                 transition: all 0.2s ease;
                 background: linear-gradient(45deg, $clark-red, $clark-blue);
-                // background: $clark-blue;
             }
 
             &:hover {
@@ -265,7 +234,7 @@ button {
                     right: 20px;
                     transition: all 0.2s ease;
                     z-index: 2;
-                    color: lighten($clark-blue, 25);
+                    color: lighten($clark-blue, 5);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -322,7 +291,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: $clark-blue;
+    background: $clark-dark;
     opacity: 0;
     z-index: 10;
     visibility: hidden;
@@ -440,16 +409,6 @@ button {
             display: flex;
             flex-direction: row;
             align-items: center;
-
-            .logo {
-                width: 70px;
-                height: 70px;
-                background: url('../assets/images/logo.png');
-                background-position: center;
-                background-size: contain;
-                background-repeat: no-repeat;
-                margin-right: 15px;
-            }
         }
 
         .team-member-name-modal {
